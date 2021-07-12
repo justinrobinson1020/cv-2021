@@ -1,0 +1,98 @@
+/* Document Styles */
+
+body {
+    font-style: 'Roboto', 'Open Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: .2em;
+}
+
+h3{
+    color: #6E1300;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 180%;
+}
+
+/* Header */
+#header {
+    color: white;
+    width: 100%;
+    min-height: 400px;
+    background: url("./images/topper-v2.png");
+    background-size: cover;
+    border-radius: 0;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+}
+
+#headshot-cropped-img {
+    border-radius: 100%;
+    margin: 20px auto;
+    min-width: 300px;
+    width: 30%;
+    z-index: 10;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6E1300;
+    margin-bottom: 60px;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+/* Sections */
+
+.section-heading {
+    border-bottom: solid 1px #6E1300;
+}
+
+.section-content {
+    margin: 30px auto;
+}
+
+.date {
+    font-size: 1.1;
+    font-weight: 500;
+}
+
+.location {
+    font-style: italic;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.skill {
+    font-weight: 700;
+}
+
+/* Mobile + Tablet Styling */
+@media only screen and (max-width: 990px) {
+
+    #main {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 4em;
+        font-weight: 800;
+    }
+
+}
