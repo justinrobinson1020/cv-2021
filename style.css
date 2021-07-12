@@ -25,6 +25,12 @@ p {
     line-height: 180%;
 }
 
+footer {
+    color: #fff;
+    background-color: #6E1300;
+    text-align: center;
+}
+
 /* Header */
 #header {
     color: white;
